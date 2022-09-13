@@ -9,7 +9,7 @@ public class Vowels {
 	public static void main(String[] args) {
 		char ch;
 		scs = new Scanner(System.in);
-		System.out.println("Enter any one character to check its vowel are not :");
+		System.out.println("Enter any one character to check it is vowel are not :");
 		ch=scs.next().toLowerCase().charAt(0);
 		if(ch=='a' || ch=='e'|| ch=='i'|| ch=='o'|| ch=='u') {
 			System.out.println(ch+" is a vowel");
